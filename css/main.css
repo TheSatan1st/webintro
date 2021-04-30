@@ -366,14 +366,14 @@ h3 {
   transition: all .3s ease;
 }
 .mob-header.scrolled {
-  height: 70px;
+  height: 60px;
   background-color: var(--bg-white);
   border-bottom: 1px solid var(--text-unselected);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .mob-header.scrolled .menu-toggle {
-  top: 10px;
+  top: 5px;
 }
 
 .menu-toggle {
