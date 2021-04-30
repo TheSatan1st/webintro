@@ -5,7 +5,9 @@ const mobToggle = document.getElementById("menu-toggle");
 const mobNavList = document.querySelectorAll('.mob-menu a');
 const langButtons = document.querySelectorAll('.lang-switcher span');
 const langButtonsMob = document.querySelectorAll('.lang-switcher.mobile span');
-let langState = localStorage.getItem("MultiLanguage");
+let langState;
+if (localStorage.getItem("MultiLanguage") != null) langState = localStorage.getItem("MultiLanguage");
+else langState = "en";
 
 const themeButtons = document.querySelectorAll('.themes li');
 
@@ -67,8 +69,8 @@ function langControl(state, buttons) {
     if (span.classList.contains("active")) span.classList.remove("active");
   })
 
-  //let current = document.getElementById(state);
-  //current.classList.add("active");
+  let current = document.getElementById(state);
+  current.classList.add("active");
 
   buttons.forEach(span => {
     span.addEventListener("click", function() {
