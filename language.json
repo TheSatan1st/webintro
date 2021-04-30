@@ -1,0 +1,55 @@
+{
+    "config": {
+        "default": "en"
+    },
+    "language": {
+      "ru": {
+        "#name": "Дэнис<br>Новик",
+        "#home-button": "Наверх",
+        "#about-button": "Обо мне",
+        "#skills-button": "Навыки",
+        "#portfolio-button": "Портфолио",
+        "#contacts-button": "Контакты",
+        "#mob-home-button": "Наверх",
+        "#mob-about-button": "Обо мне",
+        "#mob-skills-button": "Навыки",
+        "#mob-portfolio-button": "Портфолио",
+        "#mob-contacts-button": "Контакты",
+        "#short-info": "UX | UI дизайнер<br>24 года, г. Минск",
+        "#about-me": "Обо мне",
+        "#about-me-text": "Привет, Я Дэнис – UX/UI дизайнер из Минска. Мне интересен дизайн и все, связанное с ним.<br><br><br>На данный момент я обучаюсь на курсах \"Веб-дизайн и интерфейсы\" в IT-Academy.<br><br><br>Готов воплотить в жизнь клевые и самые разные проекты с прекрасными людьми.",
+        "#skills-label": "Навыки",
+        "#work-in": "Я работаю в следующих программах",
+        "#portfolio-label": "Портфолио",
+        "#contacts-label": "Контакты",
+        "#wanna-chat": "Хочешь узнать больше или пообщаться?<br>Напиши!",
+        "#contact": "Отправить сообщение",
+        "#like-me": "Поставь лайк на<br>Linkedln, Instagram, Behance, Dribbble"
+
+      },
+      "en": {
+        "#name": "Denis<br>Novik",
+        "#home-button": "Home",
+        "#about-button": "About",
+        "#skills-button": "Skills",
+        "#portfolio-button": "Portfolio",
+        "#contacts-button": "Contacts",
+        "#mob-home-button": "Home",
+        "#mob-about-button": "About",
+        "#mob-skills-button": "Skills",
+        "#mob-portfolio-button": "Portfolio",
+        "#mob-contacts-button": "Contacts",
+        "#short-info": "UX | UI designer<br>24 years old, Minsk",
+        "#about-me": "About me",
+        "#about-me-text": "Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.<br><br><br>I'm studying at courses \"Web and mobile design interfaces\" in IT-Academy.<br><br><br>Ready to implement excellent projects with wonderful people.",
+        "#skills-label": "Skills",
+        "#work-in": "I work in such programs as",
+        "#portfolio-label": "Portfolio",
+        "#contacts-label": "Contacts",
+        "#wanna-chat": "Want to know more or just chat?<br>You are welcome!",
+        "#contact": "Send message",
+        "#like-me": "Like me on<br>Linkedln, Instagram, Behance, Dribbble"
+      }
+
+    }
+}
