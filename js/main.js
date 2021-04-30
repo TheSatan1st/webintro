@@ -67,8 +67,8 @@ function langControl(state, buttons) {
     if (span.classList.contains("active")) span.classList.remove("active");
   })
 
-  let current = document.getElementById(state);
-  current.classList.add("active");
+  //let current = document.getElementById(state);
+  //current.classList.add("active");
 
   buttons.forEach(span => {
     span.addEventListener("click", function() {
