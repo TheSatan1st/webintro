@@ -118,7 +118,7 @@ window.addEventListener("scroll", function() {
   if (window.pageYOffset > 0) header.classList.add("scrolled");
   else header.classList.remove("scrolled");
 
-  if (window.pageYOffset > 100) {
+  if (window.pageYOffset > 50) {
     toTop.classList.add("active");
     mobHeader.classList.add("scrolled")
   } else {
