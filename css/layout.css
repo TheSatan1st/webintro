@@ -1,0 +1,136 @@
+@font-face {
+font-family: 'Gilroy Medium';
+src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gilroy Bold';
+src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+:root {
+  --text-unselected: #828282;
+  --text-highlighted: #090909;
+  --text-main: #070707;
+  --bg-white: #fff;
+  --text-white: #fff;
+  --bg-light-gray: #F6F6F6;
+  --blur-bg: rgba(255, 255, 255, .85);
+  --box-shadow: rgba(0, 0, 0, .2);
+}
+body {
+
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.pos-r {
+  position: relative;
+}
+.fullwidth {
+  width: 100%;
+}
+.o-hidden {
+  overflow: hidden;
+}
+
+section {
+  padding-bottom: 80px;
+
+}
+
+section.home {
+  padding: 65px 0 0 0;
+}
+@media(min-height: 500px) {
+  section.home {
+    height: calc(100vh - 65px);
+  }
+}
+
+section:nth-child(2n) {
+  background-color: var(--bg-light-gray);
+}
+
+.d-flex, .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-column {
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none;
+}
+.inline-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 15px;
+  flex: 1 0 90%;
+  max-width: calc(100% - 30px);
+}
+.col > * {
+  flex: 1 1 auto;
+}
+.col.md-6 {
+  margin-bottom: 30px;
+}
+.container {
+  position: relative;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pt-0 {
+  padding-top: 0 !important;
+}
+.pb-0 {
+  padding-bottom: : 0 !important;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
